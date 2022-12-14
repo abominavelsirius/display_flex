@@ -13,12 +13,31 @@ body {
 
 /* --------HEADER----------------------------------------------------------------------------------------- */
 
+
 .menu {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 100px;
     background: rgb(95, 82, 82);
 }
 
+button {
+    background: rgb(144, 155, 102);
+    border-radius: 10px;
+}
+
+
+a {
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(12, 0, 0);
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: rgb(43, 255, 0);
+}
 
 /* ------------------------------------------------------------------------------------------------- */
 
