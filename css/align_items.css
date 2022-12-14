@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+/* font-family: 'Carter One', cursive; */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Carter One', cursive;
+    background: #141414;
+    color: rgb(172, 165, 156);
+    box-sizing: border-box;
+}
+
+/* --------HEADER----------------------------------------------------------------------------------------- */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: rgb(95, 82, 82);
+}
+
+button {
+    background: rgb(144, 155, 102);
+    border-radius: 10px;
+}
+
+
+a {
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(12, 0, 0);
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: rgb(43, 255, 0);
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    margin: 0 650px;
+}
+
+
+/* ----BLOCOS--------------------------------------------------------------------------------------------- */
+
+div {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    
+}
+
+.bloco1 {
+    background: red;
+}
+
+.bloco2 {
+    background: blue;
+}
+
+.bloco3 {
+    background: yellow;
+}
+/* -----------PADRÃO-------------------------------------------------------------------------------------- */
+
+.flex-padrao:hover {
+    background-image: url(../img/back-padrao.png);
+}
+
+
+/* ------FLEX------------------------------------------------------------------------------------------- */
+
+.flex-flex {
+    display: flex;
+}
+
+
+.flex-flex:hover {
+    background-image: url(../img/back-grade-roxa.png);
+}
+
+
+/* -------START------------------------------------------------------------------------------------------ */
+
+.flex-start {
+    height: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.flex-start:hover {
+    background-image: url(../img/back-grade-roxa.png);
+}
+
+
+
+/* ---------END---------------------------------------------------------------------------------------- */
+
+.flex-end {
+    height: 200px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.flex-end:hover {
+    background-image: url(../img/back-grade-roxa.png);
+}
+
+/* -------CENTER------------------------------------------------------------------------------------------ */
+
+.flex-center {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-center:hover {
+    background-image: url(../img/back-grade-roxa.png);
+}
+
+
+/* ------------SPACE-BETWEEN------------------------------------------------------------------------------------- */
+
+.flex-space-between {
+    height: 200px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.flex-space-between:hover {
+    background-image: url(../img/back-grade-roxa.png);
+}
+
+
+
