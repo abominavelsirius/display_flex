@@ -13,11 +13,6 @@ body {
 
 /* --------HEADER----------------------------------------------------------------------------------------- */
 
-button img {
-    width: 30px;
-    margin: 0;
-}
-
 .menu {
     display: flex;
     justify-content: space-around;
@@ -46,8 +41,8 @@ img {
 /* ----BLOCOS--------------------------------------------------------------------------------------------- */
 
 div {
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
     border: 1px solid black;
     
 }
