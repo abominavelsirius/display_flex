@@ -105,7 +105,7 @@ div {
 }
 
 .flex-start:hover {
-    background-image: url(../img/back-grade-roxa.png);
+    background-image: url(../img/back-grade-roxa-vertical.png);
 }
 
 
@@ -120,7 +120,7 @@ div {
 }
 
 .flex-end:hover {
-    background-image: url(../img/back-grade-roxa.png);
+    background-image: url(../img/back-grade-roxa-vertical.png);
 }
 
 /* -------CENTER------------------------------------------------------------------------------------------ */
@@ -133,21 +133,21 @@ div {
 }
 
 .flex-center:hover {
-    background-image: url(../img/back-grade-roxa.png);
+    background-image: url(../img/back-grade-roxa-vertical.png);
 }
 
 
 /* ------------SPACE-BETWEEN------------------------------------------------------------------------------------- */
 
-.flex-space-between {
+.flex-stretch {
     height: 200px;
     display: flex;
     align-items: stretch;
     justify-content: center;
 }
 
-.flex-space-between:hover {
-    background-image: url(../img/back-grade-roxa.png);
+.flex-stretch:hover {
+    background-image: url(../img/back-grade-roxa-vertical.png);
 }
 
 
